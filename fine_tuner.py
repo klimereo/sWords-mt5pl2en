@@ -11,7 +11,7 @@ model = MarianMTModel.from_pretrained(model_name)
 tokenizer = MarianTokenizer.from_pretrained(model_name)
 
 
-# Data preparation
+# Data preparation for training
 raw_data = pd.read_csv('/content/pl2en_vsimple.csv')
 source_texts = raw_data['meaning'].astype(str).tolist()
 target_texts = raw_data['KEY-MEANING'].astype(str).tolist()  # Convert to strings
