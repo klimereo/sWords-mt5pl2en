@@ -1,4 +1,4 @@
-Greedy B4E4
+Model B4E4
 
 Learning rate: 1-e4
 Batch size: 4
