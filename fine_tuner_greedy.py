@@ -43,7 +43,7 @@ target_ids = tokenizer.batch_encode_plus(
 dataset = TensorDataset(input_ids, target_ids)
 
 # Create a DataLoader
-batch_size = 4
+batch_size = 8
 train_dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 num_epochs = 10  # Define the number of fine-tuning epochs
@@ -102,4 +102,4 @@ for epoch in range(num_epochs):
     print(f"Epoch [{epoch+1}/{num_epochs}], Loss: {average_loss}")
 
 # Save the model
-model.save_pretrained("content/")
+model.module.save_pretrained("content/")
