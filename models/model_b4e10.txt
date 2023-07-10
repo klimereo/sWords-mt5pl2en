@@ -1,4 +1,4 @@
-Model B4E4
+Model B4E10
 
 Learning rate: 1-e4
 Batch size: 4
