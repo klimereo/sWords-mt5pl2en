@@ -12,4 +12,4 @@ Observations:
 
 1. (+) Named entity recognition seems to be working quite well for person names.
 2. (+) Works good for 1-2 words long key-meanings
-3. (-) Fails to extract key meaning if the key-meaning is long
+3. (-) Can extract key meaning if the key-meaning is obvious. Otherwise, it fails.
