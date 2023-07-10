@@ -1,0 +1,15 @@
+Model B8E10
+
+Learning rate: 1-e4
+Batch size: 8
+Epoch number: 10
+Training time: 20~ minutes
+Training Hardware: Tesla T4 GPU
+
+Link to the model: https://drive.google.com/drive/folders/1-6iPeY6YfYwLau92JW36QkCY1x4e0Yjl?usp=sharing
+
+Observations:
+
+1. (+) Named entity recognition seems to be working quite well for person names.
+2. (+) Works good for 1-2 words long key-meanings
+3. (-) Fails to extract key meaning if the key-meaning is long
