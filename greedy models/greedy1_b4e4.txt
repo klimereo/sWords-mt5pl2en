@@ -1,0 +1,16 @@
+Greedy B4E4
+
+Learning rate: 1-e4
+Batch size: 4
+Epoch number: 10
+Training time: 35~ minutes
+Training Hardware: Tesla T4 GPU
+
+Link to the model: https://drive.google.com/drive/folders/13e_RGyvPOxZ7T9-ERlG2XpQtMCUBa2nc?usp=sharing
+
+Observations:
+
+1. (+) Named entity recognition seems to be working quite well for person names.
+2. (+) Works good for 1-2 words long key-meanings
+3. (-) Fails to extract key meaning if the key-meaning is long
+
